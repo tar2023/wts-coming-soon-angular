@@ -1,4 +1,4 @@
-function fizzbuzzTS(n) {
+function fizzbuzzType(n) {
     if (n % 3 === 0) {
         return 'fizz';
     }
@@ -7,8 +7,8 @@ function fizzbuzzTS(n) {
     }
     return String(n);
 }
-console.log(fizzbuzz(1));
-console.log(fizzbuzz(2));
-console.log(fizzbuzz(3));
-console.log(fizzbuzz(4));
+console.log(fizzbuzzType(1));
+console.log(fizzbuzzType(2));
+console.log(fizzbuzzType(3));
+console.log(fizzbuzzType(4));
 // console.log(fizzbuzz('a'));
